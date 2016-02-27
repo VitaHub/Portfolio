@@ -1,0 +1,28 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+	max-width: 900px;
+	margin: 0;
+    padding: 0;
+}
+
+/*Main*/
+.main {
+  background: url(http://ideatube.science/wp/GProxpt.jpg) no-repeat center center;
+  background-size: cover;
+  height: 540px;
+}
+
+.main h1 {
+	font-size: 90px;
+	color: #fff;
+	text-align: center;
+}
+
+#content {
+	height: 520px;
+	line-height: 520px;
+	padding-top: 150px;
+}

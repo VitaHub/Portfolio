@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+.header, .header img, .navi {
+	margin: 0;
+	padding: 0;
+	background-color: #fff; 
+}
+
+.navi {
+  	padding-top: 13px;
+}
+
+.navi li {
+  display: inline;
+	height: 24px;
+	
+	
+}
+
+.navi a {
+	width: 130px;
+	font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border: none;
+    color: #005CC7;
+}
+
+
+
+/*Footer*/
+.footer {
+	height: 64px;
+	padding-top: 18px;
+}
+
+.footer li {
+  display: inline;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.footer a {
+   color: #000;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="http://savepic.ru/8815812.png" style="height: 64px;"/>
+        </div>
+        <div class="col-md-8">
+          <ul class="navi pull-right">
+            <li><a class="btn btn-default" href="/">Home</a></li>
+            <li><a class="btn btn-default" href="#">Portfolio</a></li>
+            <li><a class="btn btn-default" href="#">About me</a></li>
+            <li><a class="btn btn-default" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <%= yield %>
+    
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <p class="pull-right">Hubenko Vitalii © 2016</p> 
+        </div>
+      </div>  
+    </div>
+  </div>
+
+</body>
+</html>
