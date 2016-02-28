@@ -49,13 +49,15 @@
 </div>
 </div>
 		<div class="row">
+    <div id="links">
   			<% @sites.each do |s| %>
     			<div class="col-md-3">
-       				<a href="#" class="thumbnail">
+       				<a href="<%= s.image %>" class="thumbnail" data-gallery>
        					<img src="<%= s.image %>"/>
        				</a>
     			</div>
   			<% end %>
+        </div>
 		</div>
 	</div>
 </div>
